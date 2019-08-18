@@ -20,10 +20,10 @@
 
 ## Application structure
 
-    ├── build                   # Compiled files (alternatively `dist`)
-    ├── node_modules            # Node modules (alternatively `doc`)
-    ├── public                  # Source files (alternatively `lib` or `app`)
-    ├── src                     # Source files (alternatively `lib` or `app`)
+    ├── build                   # Compiled files 
+    ├── node_modules            # Node modules 
+    ├── public                  # Source files 
+    ├── src                     # Source files 
     ├── .gitignore
     ├── package.json
     ├── renovate.json
@@ -38,11 +38,11 @@
 
 ## Uncompleted requirements
 
-- As a user I want to be able to search in the product description (user is able to search only in title)
+- As a user I want to be able to search by product description (user is able to search only by product title)
 - No tests
 
 ## Possible improvements/ functionality
 
-- Add all categories option
-- Add option for search in product description
+- Add all categories option above the categories
+- Add option for search by product description
 - Add unit tests
