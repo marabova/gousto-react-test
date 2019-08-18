@@ -1,20 +1,16 @@
-import React from 'react'
-import { render } from 'react-dom'
-import { Provider } from 'react-redux'
-import { ConnectedRouter } from 'connected-react-router'
-import store, { history } from './store'
-import App from './App.js'
+import React from 'react';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+// import { ConnectedRouter } from 'connected-react-router';
+import store, { history } from './store';
+import 'bootstrap/dist/css/bootstrap.css';
 
-import 'sanitize.css/sanitize.css'
-import './index.css'
-
-const target = document.querySelector('#root')
+import App from './App.js';
+import './index.css';
 
 render(
   <Provider store={store}>
-    <ConnectedRouter history={history}>
-        <App />
-    </ConnectedRouter>
+    <App />
   </Provider>,
-  target
-)
+  document.querySelector('#root')
+);

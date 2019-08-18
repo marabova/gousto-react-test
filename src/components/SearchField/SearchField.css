@@ -1,0 +1,11 @@
+.form-group {
+  margin: 0;
+}
+.form-control {
+  color: #fff;
+  border-color: #fff;
+  background: transparent;
+}
+.form-control::placeholder {
+  color: #fff;
+}

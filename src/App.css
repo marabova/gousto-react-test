@@ -1,7 +1,9 @@
-.navBar > a {
-  padding: 0 4px;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
-.title {
-  color: #f6323e;
-  font-family: Comfortaa,Helvetica,sans-serif;
+.app {
+  width: 100%;
 }
